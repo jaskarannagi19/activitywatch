@@ -21,4 +21,5 @@
 	url = https://github.com/ActivityWatch/aw-watcher-window.git
 [submodule "aw-server-rust"]
 	path = aw-server-rust
-	url = https://github.com/ActivityWatch/aw-server-rust.git
+	url = https://github.com/jaskarannagi19/aw-server-rust
+	branch = master
