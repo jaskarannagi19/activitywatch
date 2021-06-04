@@ -40,11 +40,13 @@ build:
 	make --directory=aw-watcher-afk build
 	make --directory=aw-watcher-window build
 	make --directory=aw-server build SKIP_WEBUI=$(SKIP_WEBUI)
+	
 	make --directory=aw-server-rust build SKIP_WEBUI=$(SKIP_WEBUI)
 	make --directory=aw-qt build
 #   The below is needed due to: https://github.com/ActivityWatch/activitywatch/issues/173
 	make --directory=aw-client build
 	make --directory=aw-core build
+
 #	Needed to ensure that the server has the correct version set
 	python -c "import aw_server; print(aw_server.__version__)"
 
