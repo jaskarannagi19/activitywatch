@@ -19,7 +19,8 @@
 	branch = master
 [submodule "aw-watcher-window"]
 	path = aw-watcher-window
-	url = https://github.com/ActivityWatch/aw-watcher-window.git
+	url = https://github.com/jaskarannagi19/aw-watcher-window
+	branch = master
 [submodule "aw-server-rust"]
 	path = aw-server-rust
 	url = https://github.com/jaskarannagi19/aw-server-rust
