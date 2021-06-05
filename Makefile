@@ -89,7 +89,7 @@ lint:
 #
 # Uninstalls all the Python modules.
 uninstall:
-	modules=$$(pip3 list --format=legacy | grep 'aw-' | grep -o '^aw-[^ ]*'); \
+	modules=$$(pip3 list --format=json | grep 'aw-' | grep -o '^aw-[^ ]*'); \
 	for module in $$modules; do \
 		echo "Uninstalling $$module"; \
 		pip3 uninstall -y $$module; \
